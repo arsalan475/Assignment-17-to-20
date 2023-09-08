@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      document.write(`Counting </br></br>`);
+
+      for (let i = 1; i <= 10; i++) {
+        document.write(`${i},`);
+      }
+
+      document.write(`</br></br>Reverse Counting </br></br>`);
+
+      for (let i = 10; i >= 1; i--) {
+        document.write(`${i},`);
+      }
+
+      document.write(`</br></br>Even</br></br>`);
+
+      for (let i = 0; i <= 20; i++) {
+        if (i % 2 === 0) {
+          document.write(`${i},`);
+        }
+      }
+
+      document.write(`</br></br>Odd</br></br>`);
+
+      for (let i = 0; i <= 20; i++) {
+        if (i % 2 !== 0) {
+          document.write(`${i},`);
+        }
+      }
+
+      document.write(`</br></br>Series</br></br>`);
+
+      for (let i = 2; i <= 20; i++) {
+        if (i % 2 === 0) {
+          document.write(`${i}K, `);
+        }
+      }
+    </script>
+  </body>
+</html>

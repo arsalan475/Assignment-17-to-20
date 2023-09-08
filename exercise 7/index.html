@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let abc = ["cake", "apple", "pie", "cookie", "chips", "patties"];
+
+      var order = prompt(
+        "Welcome to ABC Bakery. What do you want to order sir/mam?"
+      );
+
+      if (abc.indexOf(order) !== -1) {
+        alert(
+          `cookie is available at index ${abc.indexOf(order)} in our bakery`
+        );
+      } else {
+        document.write(`We are sorry. ${order} is not available`);
+      }
+    </script>
+  </body>
+</html>
